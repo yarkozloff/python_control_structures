@@ -1,5 +1,8 @@
-phrase = 'Caesar is the ruler of the Roman Empire'
-cipher = 29
+#phrase = 'Caesar is the ruler of the Roman Empire'
+#cipher = 29
+phrase = str(input('Введите строку: '))
+cipher = int(input('Введите шифр (число): '))
+
 result = ""
 char_db_lower = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 char_db_upper = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
